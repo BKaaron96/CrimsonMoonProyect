@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'remississemibold';
+  src: url("fonts/remissis_sb-webfont.woff2") format("woff2"), url("fonts/remissis_sb-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'rockford_sanslight';
+  src: url("fonts/fontsfree-net-fenotype-rockford-sans-light-webfont.woff2") format("woff2"), url("fonts/fontsfree-net-fenotype-rockford-sans-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.btn-dark {
+  text-transform: none;
+  font-family: rockford_sanslight; }
+
+.btn-danger a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: rockford_sanslight; }
+
+.navbar {
+  padding: .8rem; }
+
+.navbar .li {
+  padding-right: 20px; }
+
+.nav-link {
+  font-size: 1.1em !important;
+  font-family: rockford_sanslight;
+  color: black; }
+
+.nav-bar .nav-item .nav-link:hover {
+  background-color: black;
+  color: #fff;
+  border-radius: 50px; }
+
+header {
+  background-color: white;
+  width: 100%; }
+
+footer {
+  background-image: linear-gradient(to bottom, #2c2626, black);
+  width: 100%; }
+
+body {
+  background-image: url("Trabajo Final/imagenes/background.jfif");
+  margin-top: 80px; }
+
+h3 {
+  color: #2c2626;
+  font-size: 15px;
+  font-family: remississemibold; }
+
+h2 {
+  columns: black;
+  font-size: 30px;
+  font-family: remississemibold;
+  text-transform: uppercase; }
+
+footer h3 {
+  columns: #fff;
+  font-size: 15px; }
+
+p {
+  color: black;
+  font-size: 12px;
+  font-style: arial; }

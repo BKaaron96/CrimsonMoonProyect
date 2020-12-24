@@ -1,0 +1,219 @@
+/*Menu*/
+@font-face {
+    font-family: 'remississemibold';
+    src: url('fonts/remissis_sb-webfont.woff2') format('woff2'),
+         url('fonts/remissis_sb-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'rockford_sanslight';
+    src: url('fonts/fontsfree-net-fenotype-rockford-sans-light-webfont.woff2') format('woff2'),
+         url('fonts/fontsfree-net-fenotype-rockford-sans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#menu {
+    display:flex;
+    margin-left:550px;
+}
+#menu li a{
+    color:black;
+    text-decoration:none;
+    font-family: rockford_sanslight;
+    font-size:20px;
+}
+/*Aplicando animación de prueba al menu del navbar*/
+#menu li a:hover{
+    background-color:black;
+    border-radius:80px;
+    color:#fff;
+
+}
+
+
+/*Background*/
+/*aplicando gradiente de prueba a header y footer*/
+header{   
+    background-color:rgb(255, 255, 255);
+    width:100%;    
+}
+footer{
+    background-image: linear-gradient(to bottom,rgb(44, 38, 38),black);
+    width: 100%;
+
+}
+body{
+    
+    background-image: url("imagenes/background.jfif");
+    margin-top:80px;
+    
+}
+
+/*Buttons*/
+.sig-button{
+    margin-right:60px;
+}
+.sig-button button a{
+    color:#fff;
+    text-transform: none;
+}
+.sig-button button{
+    background-color:black;
+    border-radius:50px;
+    text-transform:none;
+    font-family:rockford_sanslight;
+}
+.sus-button{
+    background-color: rgba(22, 6, 6, 0.514);
+
+}
+.sus-button button{
+    font-family: rockford_sanslight;
+}
+/*Tags y Párrafos*/
+h3 {
+    color:rgb(44, 40, 40);
+    font-size:15px;
+    font-family: remississemibold;
+    
+}
+h2 {
+    color:black;
+    font-size: 30px;
+    font-family: remississemibold;
+    text-transform: uppercase;
+    
+}
+footer h3{
+    color:#fff;
+    font-size:15px;
+}
+p{
+   color:black;
+   font-size: 12px;
+   font-style: arial; 
+}
+/*Positions*/
+.home-section{
+    padding-top:100px;
+}
+.top-stories-section{
+    margin:50px;
+}
+
+
+/*Updating BootStrap*/
+.btn-dark{
+    text-transform:none;
+    font-family:rockford_sanslight;
+    color:rgba(255, 255, 255, 0.596);
+    font-size:15px;
+} 
+
+.btn-danger a{
+    color: #fff;
+    text-transform: none;
+    font-size:20px;
+    font-family: rockford_sanslight;
+}
+.navbar {
+    padding: .8rem;
+}
+.navbar-nav li {
+    padding-right:20px;
+}
+.nav-link {
+    font-size:1.1em !important;
+    font-family:rockford_sanslight;
+    color:black;
+}
+
+.navbar .nav-item .nav-link:hover{
+    background-color:black;
+    color:#fff;
+    border-radius: 50px;
+}
+.container{
+    max-width: 1200px;
+    margin:auto;
+}
+.new-releases{
+    margin-top:200px;
+}
+.review-section{
+    margin-top:200px;
+}
+.top-guides{
+    margin-top:200px;
+}
+.featured-guides{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+.sign-in{
+    margin-top:200px;
+}
+
+/*Animacion img */
+.efcir figure {
+	position: relative;
+}
+.efcir figure::before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 0;
+	height: 0;
+	background: rgba(255,255,255,.2);
+	border-radius: 100%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	opacity: 0;
+}
+.efcir figure:hover::before {
+	-webkit-animation: circle .75s;
+	animation: circle .75s;
+}
+@-webkit-keyframes circle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 200%;
+		height: 200%;
+		opacity: 0;
+	}
+}
+@keyframes circle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 200%;
+		height: 200%;
+		opacity: 0;
+	}
+}
+.opacidad figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.opacidad figure:hover img {
+	opacity: .5;
+}
+
+
+

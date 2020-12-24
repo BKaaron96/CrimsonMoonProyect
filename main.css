@@ -1,0 +1,96 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'remississemibold';
+  src: url("fonts/remissis_sb-webfont.woff2") format("woff2"), url("fonts/remissis_sb-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'rockford_sanslight';
+  src: url("fonts/fontsfree-net-fenotype-rockford-sans-light-webfont.woff2") format("woff2"), url("fonts/fontsfree-net-fenotype-rockford-sans-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.suscribe-configuracion {
+  text-transform: none;
+  font-family: rockford_sanslight; }
+
+.signin-letra-tamano a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: rockford_sanslight; }
+
+.menubar {
+  padding: .8rem; }
+
+.menubar .titulomenu-config {
+  padding-right: 20px; }
+
+.titulomenu {
+  font-size: 1.1em !important;
+  font-family: rockford_sanslight;
+  color: black; }
+
+.menubar .titulomenu-config .titulomenu:hover {
+  background-color: black;
+  color: #fff;
+  border-radius: 50px; }
+
+.header-background {
+  background-color: white; }
+
+.header-tamaño {
+  width: 100%;
+  margin-bottom: 50px; }
+
+.footer-background {
+  background-image: linear-gradient(to bottom, #2c2626, black); }
+
+.footer-tamaño {
+  width: 100%; }
+
+.body-background {
+  background-image: url("Trabajo Final/imagenes/background.jfif"); }
+
+h3 {
+  font-size: 15px;
+  color: black;
+  font-family: remississemibold; }
+
+footer h3 {
+  font-size: 20px;
+  color: #fff;
+  font-family: rockford_sanslight; }
+
+h2 {
+  columns: black;
+  font-size: 30px;
+  font-family: remississemibold;
+  text-transform: uppercase; }
+
+p {
+  color: black;
+  font-size: 12px;
+  font-style: arial; }
+
+.home-section {
+  padding-top: 100px; }
+
+.top-stories-section {
+  margin: 50px; }
+
+.new-releases, .review-section, .top-guides, .sign-in {
+  margin-top: 200px; }
+
+.btn-dark {
+  color: rgba(255, 255, 255, 0.596);
+  font-size: 20px;
+  font-family: rockford_sanslight;
+  text-transform: none; }
+
+.btn-danger a {
+  color: #fff;
+  font-size: 20px;
+  font-family: rockford_sanslight;
+  text-transform: none; }
