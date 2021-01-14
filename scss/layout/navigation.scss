@@ -1,0 +1,24 @@
+.menubar {
+    padding:.8rem;
+}
+.menubar{
+    .titulomenu-config{
+        padding-right:($size/10)*$px;
+    }
+}
+.titulomenu {
+    font-size:1.1em !important;
+    font-family:$font-common;
+    color:$color2;
+}
+.menubar{
+    .titulomenu-config{
+        .titulomenu{
+            &:hover{
+                background-color:black;
+                color:$color1;
+                border-radius: ($size/4)*$px;
+            }
+        }
+    }
+}

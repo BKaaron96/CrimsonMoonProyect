@@ -3,15 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="formulario para registro en la página"
+        <meta name="description" content="formulario para registro en la página">
         <title>CrimsonMoon-SignIn</title>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <link href="style.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="https://raw.github.com/daneden/animate.css/master/animate.css">
-
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
       <header>
@@ -37,118 +35,104 @@
                         </li>
                     </ul>
                     <button type ="button"class="btn btn-danger font-weight-bolder"><a href="signin.html">Sign In</a></button>
-
                 </div>
-
             </div>
         </nav>
-</header>
-  
-        <main class="container">
-            <section class="sign-in">
-                <div class="container text-center">
-                  <h2>Log in</h2>
-                  <div class="row">
-                    <div class="offset-col-xl-6 col-xl-2">
-                      <label for="uname"><b>Username</b></label>
-                    </div>
-                    <div class="col-xl-2">
-                      <input type="text" placeholder="Enter Username" name="uname" required>
-                    </div>
+      </header>
+      <main class="signin-bk">
+      <div class="container">
+        <div class="d-flex justify-content-center h-100">
+          <div class="card">
+            <div class="card-header">
+              <h3>Sign In</h3>
+            </div>
+            <div class="card-body">
+              <form>
+                <div class="input-group form-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fas fa-user"></i></span>
                   </div>
-                  <div class="row">
-                    <div class="offset-col-xl-6 col-xl-2">
-                      <label for="psw"><b>Password</b></label>
-
-                    </div>
-                    <div class="col-xl-2">
-                      <input type="password" placeholder="Enter Password" name="psw" required>
-                    </div>
-
-                  </div>
-                  <div class="row">
-                    <div class="offset-col-xl-6 col-xl-2">
-                      <button type="submit">Login</button>
-                    </div>
-                    <div class="col-xl-2">
-                      <label>
-                        <input type="checkbox" checked="checked" name="remember"> Remember me
-                      </label>                    
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="offset-col-xl-6 col-xl-2">
-                      <button type="button" class="cancelbtn">Cancel</button>                    
-                    </div>
-                    <div class="col-xl-2">
-                      <label>
-                        <span class="psw">Forgot <a href="#">password?</a></span>
-                      </label>                    
-                    </div>
-                  </div>
+                  <input type="text" class="form-control" placeholder="Username">
                 </div>
-        </section>
-            
-        </main>
-        <footer>
-            <div class="container-fluid">
-            <div class="row align-items-center">
-                <div class="col-xl-4">
-                <h3>Follow us</h3>
-           
-                <div class="container">
-                <ul class="row list-unstyled">
-                    <li class="offset-xl-1 col-xl-2 col-sm-4"><a href="facebook.com"><img src="imagenes/facebook.png" style="width:40px;height:40px;"></a></li>
-                    <li class="col-xl-2 col-sm-4"><a href="twitter.com"><img src="imagenes/twitter.png" style="width:40px;height:40px;"></a></li>
-                    <li class=" col-xl-2 col-sm-4 "><a href="instagram.com"><img src="imagenes/instagram.png"style="width:40px;height:40px;"></a></li>
-                </ul>
-                </div>
-                <h3>Join our servers here</h3>
-                <ul class="row list-unstyled">
-                    <li class="offset-xl-2 col-xl-1"><a href="reddit.com"><img src="imagenes/reddit.png" style="width:40px;height:40px;"></a></li>
-                </ul>
-                </div>
-            <div class="col-xl-4 offset-xl-4 d-none d-md-block">
-            <form>
-                <div class="form-group row">
-                  <div class="offset-xl-3 col-xl-6">
-                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                <div class="input-group form-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fas fa-key"></i></span>
                   </div>
+                  <input type="password" class="form-control" placeholder="Password">
                 </div>
-                <div class="form-group row ">
-                  <div class="offset-xl-4 col-xl-6">
-                   
-                    <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#sus-modal">
-                        Suscribe
-                      </button>
-                      
-                      <!-- Modal -->
-                      <div class="modal" id="sus-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">Suscription</h5>
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                              </button>
-                            </div>
-                            <div class="modal-body">
-                              Your email has been registered
-                              
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-primary">Confirm</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>       
-                  </div>
+                <div class="row align-items-center remember">
+                  <input type="checkbox">Remember Me
+                </div>
+                <div class="form-group">
+                  <input type="submit" value="Login" class="btn float-right login_btn">
                 </div>
               </form>
+            </div>
+            <div class="card-footer">
+              <div class="d-flex justify-content-center links">
+                Don't have an account?<a href="#">Sign Up</a>
+              </div>
+              <div class="d-flex justify-content-center">
+                <a href="#">Forgot your password?</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer-bs">
+      <div class="row">
+        <div class="col-md-4 footer-social animated fadeInLeft">
+            <h4>Follow Us</h4>
+            <ul>
+                <li><a href="#"><img src="imagenes/facebook.png" style="width:40px;height:40px;"></a></li>
+                <li><a href="#"><img src="imagenes/twitter.png" style="width:40px;height:40px;"></a></li>
+                <li><a href="#"><img src="imagenes/instagram.png" style="width:40px;height:40px;"></a></li>
+            </ul>
+        </div>
+        <div class="col-md-4 footer-social animated fadeInDown">
+          <h4>Join Our Servers Here</h4>
+          <ul>
+              <li><a href="#"><img src="imagenes/reddit.png" style="width:40px;height:40px;"></a></li>
+              <li><a href="#">Discord</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 footer-ns animated fadeInRight">
+            <h4>Suscribe</h4>
+              <p>
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Enter email">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-envelope"></span></button>
+                    </span>
+                  </div>
+              </p>
+              <button type="button" class="btn btn-dark suscribe-configuracion" data-toggle="modal" data-target="#sus-modal">
+                Suscribe
+              </button>
+              <!-- Modal -->
+              <div class="modal" id="sus-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Suscription</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Your email has been registered
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary">Confirm</button>
+                    </div>
+                  </div>
                 </div>
-            </div>
-            </div>
-        </footer>
+              </div>       
+        </div>
+      </div>
+  </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="js/wow.min.js"></script>
         <script>new WOW().init();</script>
     </body>

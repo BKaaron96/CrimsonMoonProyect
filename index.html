@@ -7,16 +7,15 @@
         <meta name="keywords" content="HTML, CSS, CRIMSONMOON, GAMES, WEBPAGE, CM, PAGINA DE JUEGOS, JUEGOS, REVIEWS,
         GUIDES, FORMS,GAMEREVIEWS,GAMEGUIDES,REVIEWS DE JUEGOS, GUÍAS, GUÍAS DE JUEGOS, LUNA CARMESI, MOON, LUNA, CRIMSON">
         <title>CrimsonMoon-home</title>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <link href="style.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="https://raw.github.com/daneden/animate.css/master/animate.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
-    <body>
-        <header>
-            <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <body class="body-background">
+        <header class="header-background header-tamaño">
+            <nav class="menubar navbar navbar-expand-md navbar-light bg-light fixed-top">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="index.html"><img src="imagenes/CMN.png"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -24,45 +23,54 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarResponsive">
                         <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
+                            <li class="nav-item titulomenu-config">
+                                <a class="nav-link titulomenu" href="index.html">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="games.html">Games</a>
+                            <li class="nav-item titulomenu-config">
+                                <a class="nav-link titulomenu" href="games.html">Games</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="reviews.html">Reviews</a>
+                            <li class="nav-item titulomenu-config">
+                                <a class="nav-link titulomenu" href="reviews.html">Reviews</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="guides.html">Guides</a>
+                            <li class="nav-item titulomenu-config">
+                                <a class="nav-link titulomenu" href="guides.html">Guides</a>
                             </li>
                         </ul>
-                        <button type ="button"class="btn btn-danger font-weight-bolder"><a href="signin.html">Sign In</a></button>
-
+                        <button type ="button"class="signin-letra-tamano signin-posicion btn btn-danger font-weight-bolder"><a href="signin.html">Sign In</a></button>
                     </div>
-
                 </div>
             </nav>
- </header>
+        </header>
         <main class="container">
-            <section class="home-section">
-                <div class="container-fluid">
-                    <div class="row text-center">
-                        <div class="col-xl-4 efcir">
-                            <figure><img class="img-fluid rounded"src="imagenes/watchdogs.jpg"></figure>
-                            <h3>Watch dogs Legion</h3> 
+                <section class="home-section">
+                    <div id="test" class="carousel slide" data-ride="carousel">
+                        <!-- Indicadores -->
+                        <ul class="carousel-indicators">
+                           <li data-target="#test" data-slide-to="0" class="active"></li>
+                           <li data-target="#test" data-slide-to="1"></li>
+                           <li data-target="#test" data-slide-to="2"></li>
+                        </ul>
+                        <!-- Imagenes -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imagenes/gi1920.jpg" alt="gi">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagenes/hk1920.jpg"alt="hol">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagenes/cyberpunk1920.jpg" alt="cp">
+                            </div>
                         </div>
-                        <div class="col-xl-4 efcir">
-                            <figure><img class="img-fluid rounded"src="imagenes/genshinimpact.jpg"> </figure>
-                            <h3>Genshin Impact</h3>  
-                        </div>          
-                        <div class="col-xl-4 efcir">                       
-                            <figure><img class="img-fluid rounded"src="imagenes/cyberpunk.jpg"></figure>
-                            <h3>CyberPunk</h3>                    
-                        </div>          
+                        <!-- Controles de los lados -->
+                        <a class="carousel-control-prev" href="#test" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#test" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
                     </div>
-                </div>
-            </section>
+                </section>
             <section class="top-stories-section">
                 <div class="text-lg-left text-center">
                     <h2>Top Stories</h2>
@@ -89,43 +97,36 @@
                 </div>
             </section>
         </main>
-        <footer>
-            <div class="container-fluid">
-            <div class="row align-items-center">
-                <div class="col-xl-4">
-                    <div class="text-lg-left text-center">
-                        <h3>Follow us</h3>
-                    </div>
-                    
-                    
-                <div class="container">
-                <ul class="row list-unstyled text-center text-lg-left">
-                    <li class=" img-fluid offset-xl-1 col-xl-2 col-lg-4"><a href="facebook.com"><img src="imagenes/facebook.png" style="width:40px;height:40px;"></a></li>
-                    <li class="img-fluid col-xl-2 col-lg-4"><a href="twitter.com"><img src="imagenes/twitter.png" style="width:40px;height:40px;"></a></li>
-                    <li class=" img-fluid col-xl-2 col-lg-4 "><a href="instagram.com"><img src="imagenes/instagram.png"style="width:40px;height:40px;"></a></li>
+        <footer class="footer-bs footer-background footer-tamaño">
+            <div class="row">
+              <div class="col-md-4 footer-social animated fadeInLeft">
+                  <h4>Follow Us</h4>
+                  <ul>
+                      <li><a href="#">Facebook</a></li>
+                      <li><a href="#">Twitter</a></li>
+                      <li><a href="#">Instagram</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-4 footer-social animated fadeInDown">
+                <h4>Join Our Servers Here</h4>
+                <ul>
+                    <li><a href="#">Reddit</a></li>
+                    <li><a href="#">Discord</a></li>
                 </ul>
-                </div>
-                <div class="text-lg-left text-center">
-                    <h3>Join our servers here</h3>
-                </div>
-                <ul class="row list-unstyled text-center text-lg-left">
-                    <li class="img-fluid offset-xl-2 col-xl-1 text-sm-center"><a href="reddit.com"><img src="imagenes/reddit.png" style="width:40px;height:40px;"></a></li>
-                </ul>
-                </div>
-            <div class="col-xl-4 offset-xl-4 d-none d-md-block">
-            <form>
-                <div class="form-group row">
-                  <div class="offset-xl-3 col-xl-6 offset-lg-3 col-lg-6 text-lg-center offset-sm-3 col-sm-6 text-sm-center" >
-                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-                  </div>
-                </div>
-                <div class="form-group row ">
-                  <div class="offset-xl-4 col-xl-6 offset-sm-3 col-sm-6 text-sm-center">
-                   
-                    <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#sus-modal">
+            </div>
+              <div class="col-md-4 footer-ns animated fadeInRight">
+                  <h4>Suscribe</h4>
+                    <p>
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Enter email">
+                          <span class="input-group-btn">
+                            <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-envelope"></span></button>
+                          </span>
+                        </div>
+                    </p>
+                    <button type="button" class="btn btn-dark suscribe-configuracion" data-toggle="modal" data-target="#sus-modal">
                         Suscribe
                       </button>
-                      
                       <!-- Modal -->
                       <div class="modal" id="sus-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
@@ -138,7 +139,6 @@
                             </div>
                             <div class="modal-body">
                               Your email has been registered
-                              
                             </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-primary">Confirm</button>
@@ -146,16 +146,12 @@
                           </div>
                         </div>
                       </div>       
-                  </div>
                 </div>
-              </form>
-                </div>
-            </div>
             </div>
         </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script type="text/script" src="js/bootstrap.min.js"></script>
         <script src="js/wow.min.js"></script>
         <script>new WOW().init();</script>
     </body>
- 
 </html>

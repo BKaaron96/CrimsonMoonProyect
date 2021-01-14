@@ -1,0 +1,22 @@
+h3{
+    @if $size-h3-common <=15 {
+        font-size:15px;
+        color:$color2;
+        font-family:$font-titles;
+    } @else {
+        font-size:20px;
+        color:$color1;
+        font-family: $font-common;
+    }
+}
+footer h3{
+    @if $size-h3-footer <=15 {
+        font-size:15px;
+        color:$color2;
+        font-family:$font-titles;
+    } @else {
+        font-size:20px;
+        color:$color1;
+        font-family: $font-common;
+    }
+}

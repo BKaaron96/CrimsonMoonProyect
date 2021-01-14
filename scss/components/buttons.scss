@@ -1,0 +1,17 @@
+.suscribe-configuracion{
+    text-transform:none;
+    font-family:$font-common;
+}
+.signin-letra-tamano a{
+    @include bases(($size/10)*$px,$color1,$font-common);
+    text-decoration:none;
+}
+.signin-posicion{
+    margin-right:($size-140)*$px;
+}
+.sus-button{
+    background-color:$color6;
+}
+.sus-button button{
+    font-family: $font-common;
+}

@@ -1,0 +1,11 @@
+.btn-dark{
+    @include button(($size/10),$color5,$font-common);
+    text-transform:none;
+
+}
+
+.btn-danger a{
+    @include button(($size/10),$color1,$font-common);
+    text-transform:none;
+
+}
