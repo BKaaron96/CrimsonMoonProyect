@@ -13,7 +13,7 @@
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
-    <body class="body-background">
+    <body>
         <header class="header-background header-tamaño">
             <nav class="menubar navbar navbar-expand-md navbar-light bg-light fixed-top">
                 <div class="container-fluid">
@@ -41,61 +41,109 @@
                 </div>
             </nav>
         </header>
-        <main class="container">
-                <section class="home-section">
-                    <div id="test" class="carousel slide" data-ride="carousel">
-                        <!-- Indicadores -->
-                        <ul class="carousel-indicators">
-                           <li data-target="#test" data-slide-to="0" class="active"></li>
-                           <li data-target="#test" data-slide-to="1"></li>
-                           <li data-target="#test" data-slide-to="2"></li>
-                        </ul>
-                        <!-- Imagenes -->
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="imagenes/gi1920.jpg" alt="gi">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="imagenes/hk1920.jpg"alt="hol">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="imagenes/cyberpunk1920.jpg" alt="cp">
-                            </div>
-                        </div>
-                        <!-- Controles de los lados -->
-                        <a class="carousel-control-prev" href="#test" data-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
+        <section class="home-section">
+            <div class="accordian">
+                <ul>
+                    <li>
+                        <div class="image_title">
+                            <a href="#">Genshin Impact</a>
+                            <p>Is an open world action role-playing game that allows the player to control one of four interchangeable characters in a party. Switching between 
+                                characters can be done quickly during combat, allowing the player to use several different combinations of skills 
+                                and attacks.
+                            </p>
+                        </div> 
+                        <a href="#">
+                            <img src="imagenes/gi320.jpg"/>
                         </a>
-                        <a class="carousel-control-next" href="#test" data-slide="next">
-                            <span class="carousel-control-next-icon"></span>
+                    </li>
+                    <li>
+                        <div class="image_title">
+                            <a href="#">Hollow Knight</a>
+                            <p>Is a 2D Metroidvania action-adventure game, that takes place in Hallownest, a fictional ancient kingdom.</p>
+                        </div>
+                        <a href="#">
+                            <img src="imagenes/hk320.jpg"/>
                         </a>
-                    </div>
-                </section>
-            <section class="top-stories-section">
-                <div class="text-lg-left text-center">
-                    <h2>Top Stories</h2>
+                    </li>   
+                    <li>
+                        <div class="image_title">
+                            <a href="#">Cyberpunk 2077</a>
+                            <p>Is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification.</p>
+                        </div>
+                        <a href="#">
+                            <img src="imagenes/cyberpunk320.jpg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="image_title">
+                            <a href="#">Hitman 3</a>
+                            <p>Is the dramatic conclusion to the World of Assassination trilogy and takes players around the world on a 
+                                globetrotting adventure to sprawling sandbox locations. Agent 47 returns as a ruthless professional for the most important contracts of his entire career.</p>
+                        </div>
+                        <a href="#">
+                            <img src="imagenes/hitman320.jpg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="image_title">
+                            <a href="#">Scott Pilgrim and the world the game</a>
+                            <p>Is a side-scrolling beat 'em up game developed by Ubisoft Montreal and Ubisoft Chengdu and published by Ubisoft, based on the Scott Pilgrim series of 
+                                Oni Press graphic novels by Bryan Lee O'Malley and tying in with the release of the film of the same name. </p>
+                        </div>
+                        <a href="#">
+                            <img src="imagenes/sc320.jpg"/>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>        
+    <div class="site-container">
+        <div class="text-md-center text-xl-left titles-margin">
+        <h2>Top Stories</h2>
+        </div>
+        <div class="article-container">
+            <article class="opacidad article-card">
+                <figure class="article-image">
+                    <img src="imagenes/tloz1.jpg">
+                </figure>
+                <div class="article-content">
+                    <a class="card-category">Games</a>
+                    <h3 class="card-title">The legend of Zelda</h3>
+                    <p class="card-excerpt">The legend still succeed</p>
                 </div>
-                <div class ="container-fluid">
-                    <div class="row text-center">
-                        <div class="col-xl-3 opacidad">
-                            <figure><img class="img-fluid rounded"src="imagenes/tloz1.jpg" ></figure>
-                            <h3>The legend still succeed</h3>
-                        </div>
-                        <div class="col-xl-3 opacidad">
-                            <figure><img class="img-fluid rounded" src="imagenes/l4d2.jpg"></figure>
-                            <h3>New update after 10 years</h3>
-                        </div>
-                        <div class="col-xl-3 opacidad">
-                            <figure><img class="img-fluid rounded" src="imagenes/sg.jpg"></figure>
-                            <h3>Same story but... now you're the main character</h3>
-                        </div>
-                        <div class="col-xl-3 opacidad">
-                            <figure><img class="img-fluid rounded" src="imagenes/ds3.jpg"></figure>
-                            <h3>Can you pass it without dying?</h3>    
-                        </div>
-                    </div>
+            </article>
+            <article class="opacidad article-card">
+                <figure class="article-image">
+                    <img src="imagenes/l4d2.jpg">
+                </figure>
+                <div class="article-content">
+                    <a class="card-category">Games</a>
+                    <h3 class="card-title">Left 4 Dead 2</h3>
+                    <p class="card-excerpt">New update after 10 years</p>
                 </div>
-            </section>
+            </article>
+            <article class="opacidad article-card">
+                <figure class="article-image">
+                    <img src="imagenes/sg.jpg">
+                </figure>
+                <div class="article-content">
+                    <a class="card-category">Games</a>
+                    <h3 class="card-title">Steins;Gate Elite</h3>
+                    <p class="card-excerpt">Same story but... now you're the main character</p>
+                </div>
+            </article>
+            <article class="opacidad article-card">
+                <figure class="article-image">
+                    <img src="imagenes/ds3.jpg">
+                </figure>
+                <div class="article-content">
+                    <a class="card-category">Games</a>
+                    <h3 class="card-title">Dark Souls 3</h3>
+                    <p class="card-excerpt">Can you pass it without dying?</p>
+                </div>
+            </article>
+        </div>
+    </div>
         </main>
         <footer class="footer-bs footer-background footer-tamaño">
             <div class="row">
@@ -116,14 +164,12 @@
             </div>
               <div class="col-md-4 footer-ns animated fadeInRight">
                   <h4>Suscribe</h4>
-                    <p>
                         <div class="input-group">
                           <input type="text" class="form-control" placeholder="Enter email">
                           <span class="input-group-btn">
                             <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-envelope"></span></button>
                           </span>
                         </div>
-                    </p>
                     <button type="button" class="btn btn-dark suscribe-configuracion" data-toggle="modal" data-target="#sus-modal">
                         Suscribe
                       </button>

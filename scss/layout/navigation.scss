@@ -22,3 +22,47 @@
         }
     }
 }
+@media (min-width: 768px) {
+	.footer-bs {
+		.footer-social {
+			border-left: solid 1px rgba(255,255,255,0.10);
+		}
+		.footer-ns {
+			border-left: solid 1px rgba(255,255,255,0.10);
+		}
+	}
+}
+@media screen and (min-width:768px) {
+	.site-container {
+		max-width: 608px;
+	}
+	.article-card {
+		display: grid;
+		grid-template-rows: 220px 1fr;
+	}
+}
+@media screen and (min-width:1280px) {
+	.site-container {
+		max-width: 1156px;
+	}
+}
+@media screen and (max-width:868px) {
+	.blog-post {
+		max-width: 600px;
+		height: auto;
+	}
+}
+@media screen and (max-width:768px) {
+	.blog-post {
+		padding: 2.5rem;
+		flex-direction: column;
+	}
+	.blog-post-img {
+		min-width: 100%;
+		max-width: 100%;
+		min-width: 20rem;
+		max-width: 20rem;
+		height: 20rem;
+		transform: translate(0,-20px);
+	}
+}
